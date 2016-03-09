@@ -13,6 +13,7 @@
  See the License for the specific language governing permissions and
  limitations under the License.
  -->
+<?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
@@ -141,17 +142,18 @@
         android:id="@+id/button_box"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/actionbar_bg"
+    
         android:gravity="center"
-        android:layout_marginBottom="20dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="90dp"
         android:layout_above="@+id/info_box">
-         <Button
-         android:id="@+id/buttonManual"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:text="Enter Manually"
-         android:textColor="#ff0000"></Button>
-       
+        <Button
+            android:id="@+id/buttonManual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Manually"
+            android:textColor="#ff0000"/>
+
     </RelativeLayout>
 
 
