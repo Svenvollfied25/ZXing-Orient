@@ -161,6 +161,13 @@
                 <data android:mimeType="text/plain" />
             </intent-filter>
         </activity>
+        <activity android:name="cardie.globaaligntech.com.Activities.AddCardActivity">
+    <intent-filter>
+        <action android:name="cardie.globaaligntech.com.MY_ACTION"/>
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="cardie.globaaligntech.com.Activities"/>
+    </intent-filter>
+</activity>
     </application>
 
 </manifest>
