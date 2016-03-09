@@ -130,9 +130,7 @@
         </activity>
         <activity
           android:name="cardie.globaaligntech.com.Activities.AddCardActivity">
-         
-        </actvity>
-
+       </activity>
         <activity
             android:name=".encode.EncodeActivity"
             android:stateNotNeeded="true">
