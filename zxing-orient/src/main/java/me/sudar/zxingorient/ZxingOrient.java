@@ -230,7 +230,8 @@ public class ZxingOrient {
         }
     }
     public void enterManually(View v){
-        ZxingOrient.this.startActivity(new Intent(this,Class.forName("cardie.globaaligntech.com.Activities.AddCardActivity")));
+        Intent intent = new Intent(activity,Class.forName("cardie.globaaligntech.com.Activities.AddCardActivity"));
+        ZxingOrient.this.startActivity(intent);
     }
 
 }
