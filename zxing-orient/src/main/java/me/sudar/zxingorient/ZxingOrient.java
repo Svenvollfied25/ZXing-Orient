@@ -12,7 +12,6 @@ import android.graphics.Color;
 import android.os.Bundle;
 
 import com.google.zxing.client.android.Intents;
-import cardie.globaaligntech.com.Activities;
 
 public class ZxingOrient {
 
@@ -23,7 +22,6 @@ public class ZxingOrient {
 
     private final Activity activity;
     private final Fragment fragment;
-    private Button button;
 
 //    private boolean autoFocus = true;
 //    private boolean flash = false;
@@ -232,7 +230,7 @@ public class ZxingOrient {
         }
     }
     public void enterManually(View v){
-        startActivity(new Intent(getApplicationContext(),AddCardActivity.class));
+        startActivity(new Intent(this,Class.forName("cardie.globaaligntech.com.Activities.AddCardActivity")));
     }
 
 }
