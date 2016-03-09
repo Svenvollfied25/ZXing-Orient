@@ -564,10 +564,4 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
             flash = false;
         }
     }
-     public void enterManually(View v){
-        final Intent intent = new Intent("cardie.globaaligntech.com.action.MY_ACTION");
-        intent.addCategory(CaptureActivity.this.getPackageName());
-        startActivity(CaptureActivity.this, intent);
-        finish();
-    }
 }
