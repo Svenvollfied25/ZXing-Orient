@@ -230,7 +230,7 @@ public class ZxingOrient {
         }
     }
     public void enterManually(View v){
-        startActivity(new Intent(getApplicationContext(),AddCardActivity.class);
+        startActivity(new Intent(getApplicationContext(),AddCardActivity.class));
     }
 
 }
