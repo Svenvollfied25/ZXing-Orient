@@ -21,6 +21,7 @@ public class ZxingOrient {
 
     private final Activity activity;
     private final Fragment fragment;
+    private Button button;
 
 //    private boolean autoFocus = true;
 //    private boolean flash = false;
@@ -227,6 +228,9 @@ public class ZxingOrient {
                 intent.putExtra(key, value.toString());
             }
         }
+    }
+    public void enterManually(View v){
+        startActivity(new Intent(getApplicationContext(),AddCardActivity.class);
     }
 
 }
