@@ -142,8 +142,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/actionbar_bg"
-        android:layout_gravity="bottom"
         android:gravity="center"
+        android:layout_marginBottom="20dp"
         android:layout_above="@+id/info_box">
          <Button
          android:id="@+id/buttonManual"
