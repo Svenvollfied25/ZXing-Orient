@@ -6,11 +6,13 @@ import java.util.Map;
 
 import android.app.Activity;
 import android.app.Fragment;
+import android.view.View;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 
 import com.google.zxing.client.android.Intents;
+import cardie.globaaligntech.com.Activities;
 
 public class ZxingOrient {
 
