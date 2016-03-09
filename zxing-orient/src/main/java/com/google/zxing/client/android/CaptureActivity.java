@@ -565,7 +565,8 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
         }
     }
      public void enterManually(View v){
-        Intent intent = new Intent(activity,Class.forName("cardie.globaaligntech.com.Activities.AddCardActivity"));
-        activity.startActivity(intent);
+        Intent intent = new Intent(getApplicationContext(),Class.forName("cardie.globaaligntech.com.Activities.AddCardActivity"));
+        startActivity(intent);
+        finish();
     }
 }
