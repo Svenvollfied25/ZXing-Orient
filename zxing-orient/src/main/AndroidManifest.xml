@@ -129,9 +129,6 @@
             </intent-filter>
         </activity>
         <activity
-          android:name="cardie.globaaligntech.com.Activities.AddCardActivity">
-       </activity>
-        <activity
             android:name=".encode.EncodeActivity"
             android:stateNotNeeded="true">
             <intent-filter>
