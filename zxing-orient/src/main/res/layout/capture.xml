@@ -141,7 +141,6 @@
         android:id="@+id/button_box"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
         android:background="@color/actionbar_bg"
         android:gravity="center"
         android:layout_above="@id/info_box">
